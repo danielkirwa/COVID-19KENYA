@@ -2,6 +2,11 @@
 	margin: 1;
 	padding: 1;
 }
+#hotsport{
+	
+	font-size: 24px;
+	color: #f02f2f;
+}
 #banner{
 	background: #d4d4d4;
 }
@@ -9,6 +14,16 @@
 	float: left;
 	background-color: teal;
 	width: 50%;
+}
+#kenyalogo{
+	background-color: teal;
+	width: 40%;
+	float: left;
+}
+#coronalogo{
+	background-color: teal;
+	width: 60%;
+	float: right;
 }
 #menubanner{
 	width: 50%;
@@ -95,5 +110,9 @@ border-width: 1px;
 }
 #divkenyapopulation:hover{
 border-style: inset;
+border-width: 1px;
+}
+#divatotalcases:hover{
+	border-style: inset;
 border-width: 1px;
 }

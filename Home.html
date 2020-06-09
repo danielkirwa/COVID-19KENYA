@@ -4,10 +4,17 @@
 	<title>Covid-19 Radar</title>
 	<link rel="stylesheet" type="text/css" href="homestyle.css">
 </head>
-<body>
+<body onload="bargraph()">
 <div id="banner">
 	<div id="logobanner">
-	<img src="images/Kenya1.jpg" width="132px" style="padding-left: 4%;padding-top: 1%;">
+		<div id="kenyalogo">
+	<img src="images/Kenya1.jpg" width="136px" style="padding-left: 4%;padding-top: 1%;">
+</div>
+<div id="coronalogo">
+	<img src="images/images-1.jpeg" width="100px"   style="padding-top: 1%;">
+	<label>CoronaVirus (covid-19) is a respiratory disease and has no cure</label><br>
+	<label><b><span style="color: white">Wash Hands</span><span style="color: orange">,Keep Distance</span><span style="color: white">,Wear Mask</span><span style="color: orange">,Stay Home</span><span style="color: white">& Stay Safe</span></b></label>
+</div>
 	</div>
 	<div id="menubanner">
 	<center><label style="color: white;"><h3>Kenya Covod-19 Cronometer</h3></label></center><br>
@@ -26,39 +33,49 @@
 	<div id="dailynews">
 	<center><label style="color: #007700"><h2><u>Daily brieffing on <span style="color: #a40000">covid-19</span></u></h2></label></center><br><br>
 	<center>
-	<label><h4>07-06-2020</h4></label><br>
+	<label><h4>08-06-2020</h4></label><br>
 	<div id="divnewcases">
 	<label style="font-size: 34px;color: blue;">TOTAL NEW CASES</label><br>
-	<label style="font-size: 34px;color: blue;">00</label><br>
+	<label style="font-size: 34px;color: blue;">95</label><br>
 	</div>
 	<div id="divnewrecovery">
 	<label style="font-size: 34px;color: green;">NEW RECOVERY</label><br>
-	<label style="font-size: 34px;color: green;">00</label><br>
+	<label style="font-size: 34px;color: green;">97</label><br>
 	</div>
 	<div id="divnewdeaths">
 	<label style="font-size: 34px;color: red;"> DEATHS</label><br>
-	<label style="font-size: 34px;color: red;">00</label><br>
+	<label style="font-size: 34px;color: red;">1</label><br>
 	</div>
 	<hr>
+	<div id="divatotalcases">
+	<label style="font-size: 34px;color: teal;">TOTAL CASES</label><br>
+	<label style="font-size: 34px;color: teal;" id="tcases">2862</label><br>
+	</div>
 	<div id="divactivecases">
 	<label style="font-size: 34px;color: blue;">ACTIVE CASES</label><br>
-	<label style="font-size: 34px;color: blue;">00</label><br>
+	<label style="font-size: 34px;color: blue;">1938</label><br>
 	</div>
 	<div id="divtotalrecovery">
 	<label style="font-size: 34px; color: green;">TOTAL RECOVERD</label><br>
-	<label style="font-size: 34px;color: green;">00</label><br>
+	<label style="font-size: 34px;color: green;">849</label><br>
 	</div>
 	<div id="divtotaldeaths">
 	<label style="font-size: 34px;color: red;">TOTAL DEATHS</label><br>
-	<label style="font-size: 34px;color: red;">00</label><br>
+	<label style="font-size: 34px;color: red;">85</label><br>
 	</div>
 	<hr>
 	<div id="divkenyapopulation">
 	<label style="font-size: 34px;color: teal;">TOTAL KENYA POPULATION</label><br>
-	<label style="font-size: 34px;color: teal;">00</label><br>
+	<label style="font-size: 34px;color: teal;">53,686,542</label><br>
 	</div>
 	<hr>
 	<center><label style="color: #a40000"><h2><u>HOT SPOT <span style="color: #007700">COUNTIES/PLACES</span></u></h2></label></center><br><br>
+	<ol id="hotsport">
+		<li>NAIROBI COUNTY</li>
+		<li>MOMBASA COUNTY</li>
+		<li>BUSIA COUNTY</li>
+		<li>KAJIADO COUNTY</li>
+	</ol>
 	</center>
 </div>
 </div>
@@ -66,6 +83,6 @@
 <div id="divanalizeddata">
 	<center><label style="color: #007700"><h3><u>Analized records of <span style="color: #a40000">covid-19</span></u></h3></label></center>
 </div>
-
+<script type="text/javascript" src="Graphs.js"></script>
 </body>
 </html>
