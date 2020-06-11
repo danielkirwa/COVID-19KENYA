@@ -4,7 +4,7 @@
 	<title>Covid-19 Radar</title>
 	<link rel="stylesheet" type="text/css" href="homestyle.css">
 </head>
-<body onload="bargraph()">
+<body onload="loaddate();bargraph()">
 <div id="banner">
 	<div id="logobanner">
 		<div id="kenyalogo">
@@ -33,14 +33,14 @@
 	<div id="dailynews">
 	<center><label style="color: #007700"><h2><u>Daily brieffing on <span style="color: #a40000">covid-19</span></u></h2></label></center><br><br>
 	<center>
-	<label><h4>08-06-2020</h4></label><br>
+	<p id="currentdate" style="font-size: 30px;color: #905050"></p><br>
 	<div id="divnewcases">
 	<label style="font-size: 34px;color: blue;">TOTAL NEW CASES</label><br>
-	<label style="font-size: 34px;color: blue;">95</label><br>
+	<label style="font-size: 34px;color: blue;" id="newcases">105</label><br>
 	</div>
 	<div id="divnewrecovery">
 	<label style="font-size: 34px;color: green;">NEW RECOVERY</label><br>
-	<label style="font-size: 34px;color: green;">97</label><br>
+	<label style="font-size: 34px;color: green;">175</label><br>
 	</div>
 	<div id="divnewdeaths">
 	<label style="font-size: 34px;color: red;"> DEATHS</label><br>
@@ -49,7 +49,7 @@
 	<hr>
 	<div id="divatotalcases">
 	<label style="font-size: 34px;color: teal;">TOTAL CASES</label><br>
-	<label style="font-size: 34px;color: teal;" id="tcases">2862</label><br>
+	<label style="font-size: 34px;color: teal;" id="tcases">2967</label><br>
 	</div>
 	<div id="divactivecases">
 	<label style="font-size: 34px;color: blue;">ACTIVE CASES</label><br>
@@ -75,6 +75,9 @@
 		<li>MOMBASA COUNTY</li>
 		<li>BUSIA COUNTY</li>
 		<li>KAJIADO COUNTY</li>
+		<li>BUSIA</li>
+		<li>MALABA</li>
+		<li>NAMANGA</li>
 	</ol>
 	</center>
 </div>
