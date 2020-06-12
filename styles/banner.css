@@ -1,0 +1,57 @@
+#banner{
+	background: #d4d4d4;
+}
+#logobanner{
+	float: left;
+	background-color: teal;
+	width: 50%;
+}
+#kenyalogo{
+	background-color: teal;
+	width: 40%;
+	float: left;
+}
+#coronalogo{
+	background-color: teal;
+	width: 60%;
+	float: right;
+}
+#menubanner{
+	width: 50%;
+	background-color: teal;
+	margin-left: 50%;
+}
+#menubar ul{
+	display: inline-flex;;
+	list-style: none;
+	width: 90%;
+}
+#menubar ul li{
+
+	width: 100%;
+	list-style: none;
+	background-color: white;
+	float: left;
+	position: relative;
+	width: 120px;
+	height: 50px;
+	text-align: center;
+	border: 1px solid white;
+}
+#menubar ul li a{
+
+	color: green;
+}
+#menubar #active{
+
+	background-color: #ffab7a;
+
+}
+#menubar ul li:hover{
+	background-color: #d25a00;
+
+}
+#menubar ul li a:hover{
+
+	color: white;
+}
