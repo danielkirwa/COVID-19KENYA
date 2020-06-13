@@ -3,12 +3,13 @@
 <head>
 	<title>Covid-19 Radar</title>
 	<link rel="stylesheet" type="text/css" href="styles/HomeStyle1.css">
+	<script type="text/javascript" src="scripts/chart.js"></script>
 </head>
-<body onload="loaddate();bargraph()">
+<body onload="loaddate();bargraph();piechart()">
 <div id="banner">
 	<div id="logobanner">
 		<div id="kenyalogo">
-	<img src="images/Kenya1.jpg" width="136px" style="padding-left: 4%;padding-top: 1%;">
+	<img src="images/Kenya1.jpg" width="146px" style="padding-left: 4%;padding-top: 1%;">
 </div>
 <div id="coronalogo">
 	<img src="images/images-1.jpeg" width="100px"   style="padding-top: 1%;">
@@ -36,32 +37,32 @@
 	<p id="currentdate" style="font-size: 30px;color: #905050"></p><br>
 	<div id="divnewcases">
 	<label style="font-size: 34px;color: blue;">TOTAL NEW CASES</label><br>
-	<label style="font-size: 34px;color: blue;" id="newcases">105</label><br>
+	<label style="font-size: 34px;color: blue;" id="newcases">152</label><br>
 	</div>
 	<div id="divnewrecovery">
 	<label style="font-size: 34px;color: green;">NEW RECOVERY</label><br>
-	<label style="font-size: 34px;color: green;">175</label><br>
+	<label style="font-size: 34px;color: green;">57</label><br>
 	</div>
 	<div id="divnewdeaths">
 	<label style="font-size: 34px;color: red;"> DEATHS</label><br>
-	<label style="font-size: 34px;color: red;">1</label><br>
+	<label style="font-size: 34px;color: red;">4</label><br>
 	</div>
 	<hr>
 	<div id="divatotalcases">
 	<label style="font-size: 34px;color: teal;">TOTAL CASES</label><br>
-	<label style="font-size: 34px;color: teal;" id="tcases">2967</label><br>
+	<label style="font-size: 34px;color: teal;" id="tcases">3457</label><br>
 	</div>
 	<div id="divactivecases">
 	<label style="font-size: 34px;color: blue;">ACTIVE CASES</label><br>
-	<label style="font-size: 34px;color: blue;">1938</label><br>
+	<label style="font-size: 34px;color: blue;">2136</label><br>
 	</div>
 	<div id="divtotalrecovery">
 	<label style="font-size: 34px; color: green;">TOTAL RECOVERD</label><br>
-	<label style="font-size: 34px;color: green;">849</label><br>
+	<label style="font-size: 34px;color: green;">1221</label><br>
 	</div>
 	<div id="divtotaldeaths">
 	<label style="font-size: 34px;color: red;">TOTAL DEATHS</label><br>
-	<label style="font-size: 34px;color: red;">85</label><br>
+	<label style="font-size: 34px;color: red;">100</label><br>
 	</div>
 	<hr>
 	<div id="divkenyapopulation">
@@ -84,8 +85,25 @@
 </div>
 
 <div id="divanalizeddata">
-	<center><label style="color: #007700"><h3><u>Analized records of <span style="color: #a40000">covid-19</span></u></h3></label></center>
+	<div>
+		<p>
+			<b style="color: teal">Always remember to do the following ...</b><br>
+			<ol>
+				<li><b style="color: #ff6900">WASH YOUR HANDS</b></li>
+				<li><b style="color: #ff6900">WEAR MASK</b></li>
+				<li><b style="color: #ff6900">MAINTAIN <span style="color: teal">(1 mater)</span> FROM OTHERS</b></li>
+				<li><b style="color: #ff6900">STAY HOME STAY SAFE</b></li>
+			</ol>
+		</p>
+	</div>
+	<center><label style="color: #007700"><h3><u>Analized records of <span style="color: #a40000">covid-19</span> in Kenya</u></h3></label></center>
+	<div id="piechart_3d" style="width: 90%; height: 500px;"></div>
+	<div>
+	<center><label style="color: #007700"><h3><u>Total cases of <span style="color: #a40000">covid-19</span> in Kenya</u></h3></label></center><br>
+	<div id="columnchart_values" style="width: 90%; height: 300px;"></div>
 </div>
+</div>
+
 <script type="text/javascript" src="scripts/Graphs.js"></script>
 </body>
 </html>
