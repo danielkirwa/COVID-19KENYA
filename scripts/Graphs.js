@@ -21,7 +21,7 @@ function bargraph() {
 
       var options = {
         title: "TOTAL CASES IN KENYA OF COVID-19",
-        width: 600,
+        width: 500,
         height: 400,
         bar: {groupWidth: "95%"},
         legend: { position: "none" },
@@ -58,5 +58,5 @@ function loaddate(argument) {
 
 	var date = (today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear();
 	document.getElementById('currentdate').innerHTML = date;
-	console.log(date);
+	
 }
