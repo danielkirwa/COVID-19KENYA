@@ -2,7 +2,7 @@
 #hotsport{
 	
 	font-size: 24px;
-	color: #f02f2f;
+	color: #770000;
 }
 #banner{
 	background: #d4d4d4;
@@ -112,4 +112,24 @@ border-width: 1px;
 #divatotalcases:hover{
 	border-style: inset;
 border-width: 1px;
+}
+#countytable{
+	
+	border-radius: 12px 12px 0px 0px;
+	text-align: center;
+	overflow: hidden;
+	border-spacing: 0;
+}
+#countytable th{
+	background: teal;
+	color: white;
+}
+#countytable th,td{
+	padding: 1% 2%;
+}
+#countytable tr:nth-child(odd){
+	background: #C3C3C3;
+}
+#countytable tr:nth-child(even){
+	background: #F0F0F0;
 }

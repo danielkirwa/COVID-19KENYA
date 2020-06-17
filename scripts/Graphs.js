@@ -5,10 +5,10 @@ function bargraph() {
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
         ["Element", "CASES", { role: "style" } ],
-        ["Total cases", 3727, "blue"],
-        ["Total active", 2337, "teal"],
-        ["Total recovery", 1286, "green"],
-        ["Total deaths", 104, "red"]
+        ["Total cases", 4044, "blue"],
+        ["Total active", 2584, "teal"],
+        ["Total recovery", 1353, "green"],
+        ["Total deaths", 107, "red"]
       ]);
 
       var view = new google.visualization.DataView(data);
@@ -37,10 +37,10 @@ function piechart(argument) {
       function drawChart() {
       	
         var data = google.visualization.arrayToDataTable([
-          ['Task', 'number of cases'],
-          ['NEW CASES',     133],
-          ['RECOVERD',      33],
-          ['DEATHS',  1]
+          ['Task', 'New cases'],
+          ['NEW CASES',     184],
+          ['RECOVERD',      27],
+          ['DEATHS',  2]
         ]);
 
         var options = {
