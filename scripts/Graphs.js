@@ -6,9 +6,9 @@ function bargraph() {
       var data = google.visualization.arrayToDataTable([
         ["Element", "CASES", { role: "style" } ],
         ["Total cases", 4952, "blue"],
-        ["Total active", 3045, "teal"],
+        ["Total active", 3042, "teal"],
         ["Total recovery", 1782, "green"],
-        ["Total deaths", 125, "red"]
+        ["Total deaths", 128, "red"]
       ]);
 
       var view = new google.visualization.DataView(data);
@@ -40,7 +40,7 @@ function piechart(argument) {
           ['Task', 'New cases'],
           ['NEW CASES',     155,],
           ['RECOVERD',      102],
-          ['DEATHS',  0]
+          ['DEATHS',  3]
         ]);
 
         var options = {
