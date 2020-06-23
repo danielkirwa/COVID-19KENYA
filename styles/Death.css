@@ -1,8 +1,8 @@
-#healthguide{
-	background-color: seashell;
+#content{
 	width: 70%;
+	background: seashell;
 	margin-left: 15%;
-	padding-left: 2%;
 	padding-right: 2%;
+	padding-left: 2%;
 	position: absolute;
 }
