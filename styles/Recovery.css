@@ -5,4 +5,25 @@
 	padding-right: 2%;
 	padding-left: 2%;
 	position: absolute;
+	margin-top: 160px;
+}
+#divatotalcases{
+	position: relative;
+  display: inline-block;
+}
+#divatotalcases .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: grey;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+#divatotalcases:hover .tooltiptext {
+  visibility: visible;
 }

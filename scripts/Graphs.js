@@ -52,7 +52,7 @@ function piechart(argument) {
         chart.draw(data, options);
       }
 }
-function loaddate(argument) {
+function loaddate() {
 	// body...
 	var today = new Date();
 

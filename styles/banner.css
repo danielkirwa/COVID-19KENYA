@@ -1,5 +1,10 @@
 #banner{
-	background: #d4d4d4;
+	background: teal;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	top: 0;
+	z-index: 10;
 }
 #logobanner{
 	float: left;
