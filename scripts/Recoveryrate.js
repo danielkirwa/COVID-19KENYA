@@ -34,7 +34,7 @@ function recoveryanalysis() {
         ]);
 
         var options = {
-          title: 'comparison between total cases and active cases in kenya',
+          title: 'comparison between total cases and recoverd cases in kenya',
           curveType: 'none',
           legend: { position: 'bottom' }
         };

@@ -71,7 +71,7 @@
 	width: 30%;
 	float: left;
 	background-color: teal;
-	margin-top: 160px;
+	margin-top: 168px;
 }
 #dailynews{
 	margin :1%;
@@ -83,7 +83,8 @@
 	width: 70%;
 	float: right; 
 	background-color: white;
-	margin-top: 160px;
+	margin-top: 168px;
+
 
 }
 #divnewrecovery:hover{
