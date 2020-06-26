@@ -38,7 +38,7 @@
 	background-color: white;
 	float: left;
 	position: relative;
-	width: 120px;
+	margin-top: -20px;
 	height: 60px;
 	text-align: center;
 	border: 1px solid white;
@@ -46,6 +46,7 @@
 #menubar ul li a{
 
 	color: green;
+
 }
 #menubar #active{
 
