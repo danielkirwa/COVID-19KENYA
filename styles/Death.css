@@ -48,6 +48,28 @@
 #deathinfor p{
 	font-size: 2.5vw;
 }
-#deathinfor p ol{
-	font-size: 2.5vw;
+#deathlinegraph2{
+	display: none;
+}  
+#showless2{
+	display: none;
+	color: white;
+  background: teal;
+  border-radius: 5%;
+  width: 18%;
+  height: 3vw;
 }
+#showmore2{
+  color: white;
+  background: teal;
+  border-radius: 5%;
+  width: 18%;
+  height: 3vw;
+}
+#showmore2:hover{
+  cursor: pointer;
+}
+#showless2:hover{
+  cursor: pointer;
+}
+

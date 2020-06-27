@@ -7,7 +7,7 @@
 
   <script type="text/javascript" src="scripts/chart.js"></script>
 </head>
-<body onload="recoveryanalysis();">
+<body onload="recoveryanalysisslot2();">
 <div id="banner">
   <div id="logobanner">
     <div id="kenyalogo">
@@ -20,7 +20,7 @@
 </div>
   </div>
   <div id="menubanner">
-  <center><label style="color: white;"><h3>Kenya Covod-19 Updates Tracker(this site is on upgrade)</h3></label></center>
+  <center><label style="color: white;"><h3>Kenya Covod-19 Updates Tracker</h3></label></center>
   <div id="menubar">
   <ul>
     <li  id="active"><a href="#"><h4>Recovery</h4></a></li>
@@ -51,13 +51,13 @@
 
 <div id="divatotalcases">
   <label style="color: teal;">TOTAL CASES</label>
-  <label style="color: teal;" id="tcases">5533</label><br>
-  <span class="tooltiptext">5533 CASES </span>
+  <label style="color: teal;" id="tcases">5811</label><br>
+  <span class="tooltiptext">5811 CASES </span>
   </div><br><br>
   <div id="divatotalcases">
   <label style="color: #770000;">TOTAL RECOVERY</label>
-  <label style="color: #770000;">1905</label><br>
-  <span class="tooltiptext">1905 RECOVERY</span>
+  <label style="color: #770000;">1936</label><br>
+  <span class="tooltiptext">1936 RECOVERY</span>
   </div><br><br>
 
   <div id="recoverylinegraph" style="width: 100%; height: 500px;">
@@ -67,13 +67,27 @@
  
   </div>
   <br>
+  <div>
+    
+  <button id="showmore2" onclick="showslot2();"><b>SHOW MORE ^</b></button>
+  <button id="showless2" onclick="showless2();"><b>SHOW LESS - </b></button><br>
+
+    <div id="recoverylinegraph2" style="width: 100%; height: 500px;">
+         <center>
+<div class="loader" id="loader"></div>  
+</center>
+ 
+  </div>
+
+  </div>
+ 
 <br>
 <div id="recoveryinfor">
   <br>
   <center><label style="color: teal"><h4>Recovery infor</h4></label></center>
   <p style="font-size: 2.5vw">
     
-    The recovery rate is currenty <span style="color: green">34.49%</span> form <span style="color: #a40000">COVIV-19</span><br>
+    The recovery rate is currenty <span style="color: green">33.32%</span> form <span style="color: #a40000">COVIV-19</span><br>
     There is a high recovery rate from  <span style="color: #a40000">COVIV-19</span> pandemic in kenya
   </p>
   <p>
