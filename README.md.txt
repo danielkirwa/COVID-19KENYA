@@ -1,0 +1,16 @@
+# DAILY COVID-19 UPDATE SITE FOR KENYA
+This site provide visualization of newly confirmed figures of **COVOD-19** and also 
+total confirmed tally of the pandemic in ***KENYA***
+## CONTENT PAGES
+There are five ciontent pages 
+- Home page
+- Deaths page
+- Recovery page
+- Health guide page
+- Travel guide page
+
+###### Home page
+This page comprise of all the total tally in numbers and also chart visualization.
+A general representation of data 
+
+
