@@ -11,6 +11,9 @@ There are five ciontent pages
 
 ###### Home page
 This page comprise of all the total tally in numbers and also chart visualization.
-A general representation of data 
+A general representation of data
+
+###### Health guide page
+This page provide basic health precoution on how to prevent the spread of covid-19 
 
 
