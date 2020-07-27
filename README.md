@@ -32,4 +32,4 @@ A general representation of data
 
 This page provide basic health precoution on how to prevent the spread of covid-19 
 ###### Recovery page
-This page provide basic recovery rate 
+This page provide basic recovery rate in the country
