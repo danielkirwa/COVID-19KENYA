@@ -13,8 +13,5 @@ There are five ciontent pages
 This page comprise of all the total tally in numbers and also chart visualization.
 A general representation of data
 
-###### here is a screenshot
-![Screenshot (83)](https://user-images.githubusercontent.com/56916012/88478611-868ee100-cf52-11ea-99db-bc739ab51b81.png)
-
 ###### Health guide page
 This page provide basic health precoution on how to prevent the spread of covid-19 
