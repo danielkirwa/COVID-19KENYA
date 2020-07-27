@@ -14,6 +14,7 @@ This page comprise of all the total tally in numbers and also chart visualizatio
 A general representation of data
 
 ###### here is a screenshot
+
 ![Screenshot (83)](https://user-images.githubusercontent.com/56916012/88478611-868ee100-cf52-11ea-99db-bc739ab51b81.png)
 
 ###### Health guide page
